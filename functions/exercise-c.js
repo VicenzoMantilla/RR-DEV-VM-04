@@ -1,11 +1,6 @@
 var number = prompt();
 
 function validateInteger(number){
-    if((number%2) != 0){
-        return false
-    }else{
-        return true
-    }
+    return Number.isInteger(number)
 }
-
 console.log(validateInteger(number));
