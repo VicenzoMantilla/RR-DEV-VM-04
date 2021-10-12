@@ -1,4 +1,4 @@
-/* ---- ---- */
+/* ---- A ---- */
 var number= Math.random();
 console.log(number);
 
@@ -8,7 +8,7 @@ if (number>=0.5){
 else{
     console.log("Lower than 0,5");
 }
-/* ---- ---- */
+/* ---- B ---- */
 var age= Math.floor(Math.random()*101);
 console.log(age);
 

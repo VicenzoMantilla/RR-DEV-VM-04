@@ -1,4 +1,4 @@
-/* ---- ---- */
+/* ---- A ---- */
 var week=["Lunes", "Martes", "Miercoles","Jueves","Viernes"];
 var result=[];
 
@@ -6,22 +6,22 @@ for (var i=0; i<(week.length); i++){
     result.push(week[i]);
 }
 alert(result);
-/* ---- ---- */
-var week=["lunes", "martes", "miercoles","jueves","viernes"];
+/* ---- B ---- */
+var week2=["lunes", "martes", "miercoles","jueves","viernes"];
 
-for (var i=0; i<(week.length); i++){
-    week[i]=week[i][0].toUpperCase() + week[i].substring(1);
-    alert(week);
+for (var i=0; i<(week2.length); i++){
+    week2[i]=week2[i][0].toUpperCase() + week2[i].substring(1);
+    alert(week2);
 }
-/* ---- ---- */
-var week=["Lunes", "Martes", "Miercoles","Jueves","Viernes"];
+/* ---- C ---- */
+var week3=["Lunes", "Martes", "Miercoles","Jueves","Viernes"];
 var sentence="";
 
-for (var i=0; i<(week.length); i++){
-    sentence= sentence + ' ' + week[i];
+for (var i=0; i<(week3.length); i++){
+    sentence= sentence + ' ' + week3[i];
 }
 alert(sentence);
-/* ---- ---- */
+/* ---- D ---- */
 var arrayEmpty=[];
 var cons=0;
 
