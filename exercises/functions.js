@@ -1,15 +1,10 @@
 /* ---- A ---- */
-var number1 = prompt();
-var number2 = prompt();
-
 function sum(number1,number2) {
     return result = parseInt(number1) + parseInt(number2);
 }
 
-console.log(sum(number1,number2));
+console.log(sum(2,5));
 /* ---- B ---- */
-var a = prompt();
-var b = prompt();
 
 function sum2(a,b) {
     if (a === NaN|| b === NaN){
@@ -20,14 +15,13 @@ function sum2(a,b) {
     }
 }
 
-console.log(sum2(a,b));
+console.log(sum2(4,6));
 /* ---- C ---- */
-var number = prompt();
-
 function validateInteger(number){
     return Number.isInteger(number)
 }
-console.log(validateInteger(number));
+console.log(validateInteger(45));
+console.log(validateInteger(45.54));
 /* ---- D ---- */
 function sum3(c,d) {
     if (isNaN(c) || isNaN(d)){
