@@ -52,7 +52,7 @@ function validateComplete(e,f){
         alert(e + "This is not an Integer number, try again");
         roundNumberE = Math.round(e);
         return roundNumberE;
-    }else if (validateInteger(f)!== true){
+    }else if (validateInteger(f) !== true){
         alert(f + "This is not an Integer number, try again");
         roundNumberF = Math.round(f);
         return roundNumberF;
