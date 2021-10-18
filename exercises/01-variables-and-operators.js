@@ -6,15 +6,15 @@ var result = 0;
 
 console.log("The result is :" + (result = number1 + number2));
 /* ----  B ---- */
-var Name = "Vicenzo"
-var Lastname = "Mantilla"
+var Name = "Vicenzo";
+var Lastname = "Mantilla";
 
 var fullName = Name + " " + Lastname;
 
 console.log("My name is: " + fullName);
 /* ---- C ---- */
 var twitter = "twitter";
-var instagram = "instagram"
+var instagram = "instagram";
 
 var lenghtForWords= twitter.length + instagram.length;
 

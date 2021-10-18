@@ -8,7 +8,7 @@ console.log(sum(2,5));
 
 function sum2(a,b) {
     if (a === NaN|| b === NaN){
-        alert("This is not a number, try again")
+        alert("This is not a number, try again");
         return NaN;
     }else{
         return result = parseInt(a) + parseInt(b);
@@ -18,7 +18,7 @@ function sum2(a,b) {
 console.log(sum2(4,6));
 /* ---- C ---- */
 function validateInteger(number){
-    return Number.isInteger(number)
+    return Number.isInteger(number);
 }
 console.log(validateInteger(45));
 console.log(validateInteger(45.54));
@@ -30,16 +30,16 @@ function sum3(c,d) {
     }else if (validateInteger(c)!== true){
         alert(c + "This is not an Integer number, try again");
         roundC = Math.round(c);
-        return roundC
+        return roundC;
     }else if (validateInteger(d)!== true){
         alert(d + "This is not an Integer number, try again");
         roundD = Math.round(d);
-        return roundD
+        return roundD;
     }else{
-        return c + d
+        return c + d;
     }
 }
-console.log(sum3('2df',23));
+console.log(sum3("2df",23));
 console.log(sum3(2.9,10));
 console.log(sum3(10,10.5));
 console.log(sum3(10,20));
@@ -51,17 +51,17 @@ function validateComplete(e,f){
     }else if (validateInteger(e)!== true){
         alert(e + "This is not an Integer number, try again");
         roundNumberE = Math.round(e);
-        return roundNumberE
+        return roundNumberE;
     }else if (validateInteger(f)!== true){
         alert(f + "This is not an Integer number, try again");
         roundNumberF = Math.round(f);
-        return roundNumberF
+        return roundNumberF;
     }else{
-        return e + f
+        return e + f;
     }
 }
 
 function sum4(e,f){
     return validateComplete(e,f);
 }
-console.log(sum4(3,'qwert'));
+console.log(sum4(3,"qwert"));

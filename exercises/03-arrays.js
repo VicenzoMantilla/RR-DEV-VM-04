@@ -1,7 +1,7 @@
 /* ---- A ---- */
 var months=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-console.log(months[4] + ' ' + months [10]);
+console.log(months[4] + " " + months [10]);
 /* ---- B ---- */
 var months2=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 

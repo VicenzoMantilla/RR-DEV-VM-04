@@ -1,5 +1,5 @@
 /* ---- A ---- */
-var bigWord = "friendship"
+var bigWord = "friendship";
 
 console.log(bigWord.toUpperCase());
 /* ---- B ---- */
