@@ -3,9 +3,8 @@ function sum(number1,number2) {
     return result = parseInt(number1) + parseInt(number2);
 }
 
-console.log(sum(2,5));
+console.log("6-A) The result is: " + sum(2,5));
 /* ---- B ---- */
-
 function sum2(a,b) {
     if (a === NaN|| b === NaN){
         alert("This is not a number, try again");
@@ -14,14 +13,13 @@ function sum2(a,b) {
         return result = parseInt(a) + parseInt(b);
     }
 }
-
-console.log(sum2(4,6));
+console.log("6-B) The result is: " + sum2(4,6));
 /* ---- C ---- */
 function validateInteger(number){
     return Number.isInteger(number);
 }
-console.log(validateInteger(45));
-console.log(validateInteger(45.54));
+console.log("6-C) The result is: " + validateInteger(45));
+console.log("6-C) The result is: " + validateInteger(45.54));
 /* ---- D ---- */
 function sum3(c,d) {
     if (isNaN(c) || isNaN(d)){
@@ -39,10 +37,10 @@ function sum3(c,d) {
         return c + d;
     }
 }
-console.log(sum3("2df",23));
-console.log(sum3(2.9,10));
-console.log(sum3(10,10.5));
-console.log(sum3(10,20));
+console.log("6-D) The result is: " + sum3("2df",23));
+console.log("6-D) The result is: " + sum3(2.9,10));
+console.log("6-D) The result is: " + sum3(10,10.5));
+console.log("6-D) The result is: " + sum3(10,20));
 /* ---- E ---- */
 function validateComplete(e,f){
     if (isNaN(e) || isNaN(f)){
@@ -64,4 +62,4 @@ function validateComplete(e,f){
 function sum4(e,f){
     return validateComplete(e,f);
 }
-console.log(sum4(3,"qwert"));
+console.log("6-E) The result is: " + sum4(3,"qwert"));

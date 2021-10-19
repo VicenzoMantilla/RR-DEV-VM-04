@@ -1,6 +1,6 @@
 /* ---- A ---- */
 var number = Math.random();
-console.log(number);
+console.log("4-A) The result is: " + number);
 
 if (number >= 0.5){
     console.log("Greater than 0,5");
